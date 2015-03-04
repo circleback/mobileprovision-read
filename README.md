@@ -1,6 +1,9 @@
 How to easily build it
 =====================
 
+Run build.sh
+
+## Ignore all of this
 Just run the command below in your terminal:
 
     curl https://raw.githubusercontent.com/0xc010d/mobileprovision-read/master/main.m | clang -framework Foundation -framework Security -o /usr/local/bin/mobileprovision-read -x objective-c -
